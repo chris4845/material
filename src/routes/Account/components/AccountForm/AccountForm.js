@@ -22,6 +22,11 @@ export const AccountForm = ({ account, handleSubmit, submitForm, submitting }) =
       component={TextField}
       label='Email'
     />
+    <Field
+      name='youtube'
+      component={TextField}
+      label='Youtube'
+    />
     <div>
       <h4>Linked Accounts</h4>
       {

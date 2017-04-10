@@ -12,7 +12,8 @@ import {
   LIST_PATH,
   ACCOUNT_PATH,
   LOGIN_PATH,
-  SIGNUP_PATH
+  SIGNUP_PATH,
+  YOUTUBE_PATH
 } from 'constants/paths'
 
 // Components
@@ -110,6 +111,14 @@ export default class Navbar extends Component {
         <MenuItem
           primaryText='Account'
           onTouchTap={() => this.context.router.push(ACCOUNT_PATH)}
+        />
+        <MenuItem
+          primaryText='Youtube'
+          onTouchTap={() => this.context.router.push(YOUTUBE_PATH)}
+        />
+        <MenuItem
+          primaryText='Projects'
+          onTouchTap={() => this.context.router.push(LIST_PATH)}
         />
         <MenuItem
           primaryText='Sign out'

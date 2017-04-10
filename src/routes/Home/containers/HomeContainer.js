@@ -105,10 +105,10 @@ export default class Home extends Component {
             : null
         }
         <div className={classes.info}>
-          from
+          from: 
           <span className='Home-Url'>
             <a href='https://redux-firebasev3-8bbcf.firebaseio.com/'>
-              redux-firebasev3-8bbcf.firebaseio.com
+               redux-firebasev3-8bbcf.firebaseio.com
             </a>
           </span>
         </div>
